@@ -1,4 +1,4 @@
-# revision 21061
+# revision 30372
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-langafrican
 Epoch:		1
-Version:	20120224
+Version:	20131013
 Release:	1
 Summary:	African scripts
 Group:		Publishing
@@ -16,14 +16,14 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langaf
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
 Requires:	texlive-ethiop
 Requires:	texlive-ethiop-t1
 Requires:	texlive-fc
 Requires:	texlive-hyphen-ethiopic
-Requires:	texlive-collection-basic
 
 %description
-Support for typesetting some African scripts.
+Support for African scripts.
 
 #-----------------------------------------------------------------------
 %files
@@ -35,12 +35,3 @@ Support for typesetting some African scripts.
 %build
 
 %install
-
-
-%changelog
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780330
-- Update to latest release.
-- Import texlive-collection-langafrican
-- Import texlive-collection-langafrican
-
