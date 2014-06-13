@@ -7,7 +7,7 @@
 Name:		texlive-collection-langafrican
 Epoch:		1
 Version:	20131013
-Release:	5
+Release:	6
 Summary:	African scripts
 Group:		Publishing
 URL:		http://tug.org/texlive
